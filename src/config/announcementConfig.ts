@@ -5,7 +5,7 @@ export const announcementConfig: AnnouncementConfig = {
 	title: "公告",
 
 	// 公告内容
-	content: "欢迎来到我的博客！这是一则示例公告。",
+	content: "全栈开发工程师 & 全网营销推广专家，拥有15年互联网产品开发与运营经验，专注于Web开发、移动应用、AI人工智能和数字营销解决方案。致力于为客户提供创新的技术实现和业务增长方案。",
 
 	// 是否允许用户关闭公告
 	closable: true,
