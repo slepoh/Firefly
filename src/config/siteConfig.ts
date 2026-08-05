@@ -12,11 +12,11 @@ export const siteConfig: SiteConfig = {
 	subtitle: "会开发、懂运营、玩技术",
 
 	// 站点 URL
-	site_url: "https://823331.cn",
+	site_url: "https://823331.xyz",
 
 	// 站点描述
 	description:
-		"运营程序猿技术博客，在这里学习运营相关技巧，还可以学习到开发方面的技术。",
+		"运营程序猿全栈开发工程师 & 全网营销推广专家，在这里学习运营相关技巧，还可以学习到开发方面的技术。",
 
 	// 站点关键词
 	keywords: [
