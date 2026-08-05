@@ -23,7 +23,7 @@ export const displaySettingsConfig: DisplaySettingsConfig = {
 	// ── 壁纸 (Wallpaper) ──────────────────────────────────
 
 	// 壁纸模式切换开关
-	wallpaperModeSwitchable: true,
+	wallpaperModeSwitchable: false,
 
 	// 水波纹动画开关
 	wavesSwitchable: true,
@@ -48,5 +48,5 @@ export const displaySettingsConfig: DisplaySettingsConfig = {
 	// ── 特效 (Effects) ────────────────────────────────────
 
 	// 樱花特效开关
-	sakuraSwitchable: true,
+	sakuraSwitchable: false,
 };
