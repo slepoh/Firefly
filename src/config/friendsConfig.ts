@@ -25,8 +25,8 @@ export const friendsConfig: FriendLink[] = [
 	{
 		title: "程序猿开发",
 		imgurl:
-			"https://web.yormb.cn",
-		desc: "飞萤之火自无梦的长夜亮起，绽放在终竟的明天。",
+			"https://assets.823331.xyz/images/avatar.webp",
+		desc: "专业的全网营销解决方案提供者，助力企业数字化转型",
 		siteurl: "https://web.yormb.cn",
 		tags: ["Blog"],
 		weight: 10, // 权重，数字越大排序越靠前
@@ -34,8 +34,8 @@ export const friendsConfig: FriendLink[] = [
 	},
 	{
 		title: "技术博客",
-		imgurl: "ttps://aioky.cn/logo.png",
-		desc: "Firefly主题模板文档",
+		imgurl: "https://image.aioky.cn/avatar.png",
+		desc: "程序猿博客",
 		siteurl: "https://aioky.cn",
 		tags: ["Docs"],
 		weight: 9,
