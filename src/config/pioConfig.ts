@@ -50,7 +50,7 @@ export const spineModelConfig: SpineModelConfig = {
 		],
 		// 点击时随机显示的文字消息
 		clickMessages: [
-			"你好呀！我是流萤~",
+			"你好呀！我是运营程序猿~",
 			"今天也要加油哦！✨",
 			"想要一起去看星空吗？🌟",
 			"记得要好好休息呢~",
@@ -142,11 +142,6 @@ export const live2dWidgetConfig: Live2DWidgetConfig = {
 				icon: "mdi:swap-horizontal",
 				label: "切换模型",
 				action: "switchModel",
-			},
-			{
-				icon: "mdi:github",
-				label: "GitHub",
-				action: "github",
 			},
 		],
 		// 菜单对齐方式
