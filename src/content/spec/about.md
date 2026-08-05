@@ -1,27 +1,59 @@
 # 关于我 / About Me
 
-你好！我是 **夏叶** ，一个在数字世界中默默无闻的一片叶子。
+你好！我是 **运营程序猿** ，全栈开发工程师 & 全网营销推广专家，专业的全网营销解决方案提供者，助力企业数字化转型。
 
-## 🛠️ 关于本站
+## 🛠️ 业务范围
 
-这个网站使用 **Astro** 框架构建，采用了 [Firefly](https://github.com/CuteLeaf/Firefly) 模板，Firefly 是基于 [Fuwari](https://github.com/saicaca/fuwari) 的二次开发。
+### 外贸站开发
 
-**Firefly** 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。
+专业B2B/B2C外贸网站开发，支持多语言、多货币、国际支付，助力企业拓展全球市场。
 
+-   B2B企业官网
+-   B2C电商平台
+-   多语言支持
 
-**🖥️在线预览： [Firefly - Demo site](https://firefly.cuteleaf.cn/)**
+### 短视频矩阵
 
-**🏠我的博客： [https://blog.cuteleaf.cn](https://blog.cuteleaf.cn/)**
+短视频平台矩阵运营，内容策划、制作、发布与数据分析，提升品牌曝光和用户互动。
 
-**📝Firefly使用文档： [https://docs-firefly.cuteleaf.cn](https://docs-firefly.cuteleaf.cn/)**
+-   抖音/快手/视频号运营
+-   内容策划制作
+-   数据分析优化
 
-**⭐Firefly开源地址：[https://github.com/CuteLeaf/Firefly](https://github.com/CuteLeaf/Firefly)** 
+### 小程序开发
 
-**⭐Fuwari开源地址：[https://github.com/saicaca/fuwari](https://github.com/saicaca/fuwari)**
+全平台小程序开发，覆盖微信、QQ、抖音、百度、支付宝、头条等平台，一次开发多端部署。
 
-::github{repo="CuteLeaf/Firefly"}
+-   微信/QQ小程序
+-   抖音/百度小程序
+-   支付宝/头条小程序
 
-::github{repo="saicaca/fuwari"}
+### 网站优化
+
+网站性能优化、SEO搜索引擎优化、用户体验优化，提升网站排名和转化率。
+
+-   SEO优化
+-   性能提速
+-   移动端适配
+
+### 网络推广
+
+全网营销推广，包括搜索引擎营销、社交媒体广告、内容营销等，提升品牌知名度。
+
+-   搜索引擎营销
+-   社交媒体广告
+-   内容营销策略
+
+### AI人工智能
+
+AI技术应用开发，包括智能客服、数据分析、图像识别、自然语言处理等解决方案。
+
+-   GEO优化排名（覆盖ChatGPT、Gemini、DeepSeek、Grok、豆包、元宝、通义千问、智谱、文心一言、Kimi等）
+-   智能客服系统
+-   数据分析预测
+-   AI图像/视频生成
+
+::github{repo="slepoh/B2B-Wholesale-Site"}
 
 ---
 
