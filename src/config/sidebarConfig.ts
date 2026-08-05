@@ -46,7 +46,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 组件位置
 			position: "top",
 			// 是否在文章详情页显示
-			showOnPostPage: true,
+			showOnPostPage: false,
 		},
 		{
 			// 组件类型：公告组件
@@ -66,7 +66,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 组件位置
 			position: "sticky",
 			// 是否在文章详情页显示
-			showOnPostPage: true,
+			showOnPostPage: false,
 		},
 		{
 			// 组件类型：分类组件
@@ -194,7 +194,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 					image: {
 						src: "/assets/images/ad/ad1.webp",
 						alt: "广告横幅",
-						link: "https://haoka.lot-ml.com/plugreg.html?agentid=1423316",
+						link: "/",
 						external: true,
 					},
 					// 是否允许关闭广告
