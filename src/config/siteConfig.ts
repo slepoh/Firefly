@@ -6,27 +6,27 @@ const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "Firefly",
+	title: "运营程序猿",
 
 	// 站点副标题
-	subtitle: "Demo site",
+	subtitle: "会开发、懂运营、玩技术",
 
 	// 站点 URL
-	site_url: "https://firefly.cuteleaf.cn",
+	site_url: "https://823331.cn",
 
 	// 站点描述
 	description:
-		"Firefly 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。",
+		"运营程序猿技术博客，在这里学习运营相关技巧，还可以学习到开发方面的技术。",
 
 	// 站点关键词
 	keywords: [
-		"Firefly",
-		"Fuwari",
-		"Astro",
-		"ACGN",
-		"博客",
-		"技术博客",
-		"静态博客",
+		"运营程序猿",
+		"运营攻城狮",
+		"开发程序猿",
+		"开发攻城狮",
+		"程序猿博客",
+		"攻城狮博客",
+		"运营技巧",
 	],
 
 	// 主题色
@@ -223,7 +223,7 @@ export const siteConfig: SiteConfig = {
 		// Bilibili 配置
 		bilibili: {
 			// 你的 Bilibili 用户 UID
-			uid: "38932988",
+			uid: "1086637530",
 		},
 		// TMDB 配置（可选，需要翻墙）
 		// tmdb: {
