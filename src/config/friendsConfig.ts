@@ -27,14 +27,14 @@ export const friendsConfig: FriendLink[] = [
 		imgurl:
 			"https://web.yormb.cn",
 		desc: "飞萤之火自无梦的长夜亮起，绽放在终竟的明天。",
-		siteurl: "https://blog.cuteleaf.cn",
+		siteurl: "https://web.yormb.cn",
 		tags: ["Blog"],
 		weight: 10, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用
 	},
 	{
 		title: "技术博客",
-		imgurl: "https://docs-firefly.cuteleaf.cn/logo.png",
+		imgurl: "ttps://aioky.cn/logo.png",
 		desc: "Firefly主题模板文档",
 		siteurl: "https://aioky.cn",
 		tags: ["Docs"],
