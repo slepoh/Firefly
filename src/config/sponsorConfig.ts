@@ -64,7 +64,7 @@ export const sponsorConfig: SponsorConfig = {
 ,
 	  amount: "¥50",
 ,
-	  date: "2025-07-"
+	  date: "2025-07-26"
 ,
 	},
 	],
