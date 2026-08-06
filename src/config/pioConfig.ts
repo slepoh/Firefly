@@ -3,14 +3,14 @@ import type { Live2DWidgetConfig, SpineModelConfig } from "../types/pioConfig";
 // Spine 看板娘配置
 export const spineModelConfig: SpineModelConfig = {
 	// Spine 看板娘开关
-	enable: false,
+	enable: true,
 
 	// Spine模型配置
 	model: {
 		// Spine模型文件路径
 		path: "/pio/models/spine/firefly/1310.json",
 		// 模型缩放比例
-		scale: 1.0,
+		scale: 1,
 		// X轴偏移
 		x: 0,
 		// Y轴偏移
@@ -57,7 +57,7 @@ export const spineModelConfig: SpineModelConfig = {
 			"有什么想对我说的吗？💫",
 			"让我们一起探索未知的世界吧！🚀",
 			"每一颗星星都有自己的故事~⭐",
-			"希望能带给你温暖和快乐！💖",
+			"希望能带给你温暖和快乐！💖",,
 		],
 		// 文字显示时间（毫秒）
 		messageDisplayTime: 3000,
@@ -79,7 +79,7 @@ export const spineModelConfig: SpineModelConfig = {
 	zIndex: 1000, // 层级
 
 	// 透明度
-	opacity: 1.0,
+	opacity: 1,
 };
 
 // Live2D 看板娘配置 (使用 l2d-widget 库，文档：https://l2d-widget.hacxy.cn)
