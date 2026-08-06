@@ -84,7 +84,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		],
 	});
 
-	// 自定义导航栏链接
+	// ===== FireflyCMS:NAVBAR_CUSTOM_START =====
 	links.push({
 		name: "链接",
 		url: "#",
@@ -94,25 +94,23 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			{
 				name: "GitHub",
 				url: "https://github.com/slepoh",
-				external: true,
 				icon: "fa7-brands:github",
+				external: true
 			},
 			{
 				name: "Gitee",
 				url: "https://gitee.com/slepoh",
-				external: true,
 				icon: "fa7-brands:gitee",
+				external: true
 			},
+			{
+				name: "我的",
+				url: "",
+				external: false
+			}
 		],
 	});
-
-	// 文档链接
-	// links.push({
-	// 	name: "文档",
-	// 	url: "https://docs-firefly.cuteleaf.cn",
-	// 	external: true,
-	// 	icon: "material-symbols:docs",
-	// });
+	// ===== FireflyCMS:NAVBAR_CUSTOM_END =====
 
 	return { links } as NavBarConfig;
 };
