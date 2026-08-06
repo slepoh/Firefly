@@ -221,6 +221,36 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 组件专属配置（广告内容直接在此配置）
 			specificConfig: {
 				ad: {
+					title: "关注视频号",
+					image: {
+						src: "https://assets.823331.xyz/images/sph.jpg",
+						alt: "微信视频号",
+						link: "/",
+						external: true,
+					},
+					// 是否允许关闭广告
+					closable: false,
+					// 显示次数限制，-1为无限制
+					displayCount: -1,
+					// 组件内边距配置
+					padding: {
+						all: "1rem",
+					},
+				},
+			},
+		},
+		{
+			// 组件类型：广告栏组件 3
+			type: "advertisement",
+			// 是否启用该组件
+			enable: false,
+			// 组件位置
+			position: "sticky",
+			// 是否在文章详情页显示
+			showOnPostPage: true,
+			// 组件专属配置（广告内容直接在此配置）
+			specificConfig: {
+				ad: {
 					title: "支持博主",
 					content:
 						"如果您觉得本站内容对您有帮助，欢迎支持我们的创作！您的支持是我们持续更新的动力。",
