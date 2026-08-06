@@ -124,7 +124,7 @@ export const sponsorConfig: SponsorConfig = {
 		{
 
 		// 示例：已实名打赏者
-		  name: "",
+		  name: "会飞的鱼",
 
 		// 示例：已实名打赏者
 		  avatar: "",
