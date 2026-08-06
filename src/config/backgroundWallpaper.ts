@@ -81,7 +81,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 				"在泛红的蛹中，我曾安静",
 				"从破碎的天空，我自由坠落",
 				"在静默的群星间，我沉沉入睡",
-				"Upon Lighted Fyrefly, I Soon Gaze",
+				"我凝视着那只发光的萤火虫。",
 				"From Undreamt Night, I Thence Shine",
 				"In Finalized Morrow, I Full Bloom",
 			],
