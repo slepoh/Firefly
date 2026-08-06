@@ -192,8 +192,8 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			specificConfig: {
 				ad: {
 					image: {
-						src: "/assets/images/ad/ad1.webp",
-						alt: "广告横幅",
+						src: "https://assets.823331.xyz/images/mp.jpg",
+						alt: "微信公众号",
 						link: "/",
 						external: true,
 					},
