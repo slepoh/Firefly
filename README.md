@@ -7,7 +7,7 @@
 🔧 高度可配置: 大部分功能模块均可通过配置文件自定义
 
 ## 后台管理
-专为Firefly开发的一款内容管理后台，让Firefly的TS文件及md/mdx后缀的文件可视化管理，直接通过 GitHub API 远程增删改博客内容、配置博客信息等操作， 保存即提交到 GitHub，Cloudflare 自动重新部署。
+（[Firefly-Admin](https://github.com/slepoh/Firefly-Admin)）专为Firefly开发的一款内容管理后台，让Firefly的TS文件及md/mdx后缀的文件可视化管理，直接通过 GitHub API 远程增删改博客内容、配置博客信息等操作， 保存即提交到 GitHub，Cloudflare 自动重新部署。
 
 ## ✨ 功能特性
 
