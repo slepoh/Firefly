@@ -73,7 +73,18 @@ export const sponsorConfig: SponsorConfig = {
 ,
 	  avatar: "",
 ,
-	  amount: "¥",
+	  amount: "¥20",
+,
+	  date: "2025-09-17"
+,
+	},,
+	{
+,
+	  name: "",
+,
+	  avatar: "",
+,
+	  amount: "",
 ,
 	  date: ""
 ,
