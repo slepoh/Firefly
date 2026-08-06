@@ -84,7 +84,7 @@ export const sponsorConfig: SponsorConfig = {
 ,
 	  avatar: "",
 ,
-	  amount: "",
+	  amount: "¥",
 ,
 	  date: ""
 ,
