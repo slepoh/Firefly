@@ -1,21 +1,19 @@
 ---
-title: Markdown 扩展功能
+title: "Markdown 扩展功能"
 published: 1970-01-01
 updated: 1970-01-01
-description: "了解 Firefly 中的 Markdown 功能"
-image: ""
-tags: [演示, 示例, Markdown, Firefly]
-category: "文章示例"
 slug: markdown-extended
+description: "了解 Firefly 中的 Markdown 功能"
+tags: [演示, 示例, Markdown, Firefly]
+category: 文章示例
 ---
-
 ## GitHub 仓库卡片
 
 您可以添加链接到 GitHub 仓库的动态卡片，在页面加载时，仓库信息会从 GitHub API 获取。
 
-::github{repo="CuteLeaf/Firefly"}
+::github{repo="Slepoh/Firefly-Admin"}
 
-使用代码 `::github{repo="CuteLeaf/Firefly"}` 创建 GitHub 仓库卡片。
+使用代码 `::github{repo="Slepoh/Firefly-Admin"}` 创建 GitHub 仓库卡片。
 
 ```markdown
 ::github{repo="CuteLeaf/Firefly"}
@@ -41,7 +39,7 @@ export const siteConfig: SiteConfig = {
 
 以下是各个主题支持的类型列表，每个主题风格和语法不同，可根据喜好选择。
 
-### 1. GitHub 主题风格
+### 1\. GitHub 主题风格
 
 这是 GitHub 官方支持的 5 种基本类型。
 
@@ -69,14 +67,12 @@ export const siteConfig: SiteConfig = {
 > 这是一个带有自定义标题的示例。
 ```
 
----
+***
 
-### 2. Obsidian 主题风格
+### 2\. Obsidian 主题风格
 
 [Obsidian](https://obsidian.md/) 风格支持非常丰富的类型和别名。
-
-<details>
-<summary>点击展开 Obsidian 语法列表</summary>
+点击展开 Obsidian 语法列表
 
 ```markdown
 
@@ -164,18 +160,16 @@ export const siteConfig: SiteConfig = {
 > [!NOTE] 自定义标题
 > 这是一个带有自定义标题的示例。
 ```
-</details>
+
 
 ![Obsidian](./images/obsidian.avif)
 
----
+***
 
-### 3. VitePress 主题风格
+### 3\. VitePress 主题风格
 
 [VitePress](https://vitepress.dev/) 风格提供了一套现代化的、扁平的默认样式。目前仅包含与 GitHub 一致的 **5 种** 基础类型。
-
-<details>
-<summary>点击展开 VitePress 语法列表</summary>
+点击展开 VitePress 语法列表
 
 ```markdown
 > [!NOTE] NOTE
@@ -196,19 +190,16 @@ export const siteConfig: SiteConfig = {
 > [!TIP] 自定义标题
 > VitePress 风格同样支持自定义标题。
 ```
-</details>
+
 
 ![VitePress](./images/vitepress.avif)
 
----
+***
 
-### 4. Docusaurus 主题风格
+### 4\. Docusaurus 主题风格
 
 [Docusaurus](https://docusaurus.io/docs/markdown-features/admonitions) 风格提供了一套现代化的提醒框样式，支持 5 种类型。
-
-<details>
-<summary>点击展开 Docusaurus 语法列表 </summary>
-
+点击展开 Docusaurus 语法列表
 支持以下类型的提醒框：`note` `tip` `info` `warning` `danger`
 
 ```markdown
@@ -237,11 +228,10 @@ export const siteConfig: SiteConfig = {
 :::
 ```
 
-</details>
 
 ![Docusaurus](./images/docusaurus.avif)
 
----
+***
 
 ## 剧透
 
@@ -277,5 +267,4 @@ export const siteConfig: SiteConfig = {
 [/grid]
 ```
 
-
----
+***
