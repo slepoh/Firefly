@@ -191,6 +191,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 组件专属配置（广告内容直接在此配置）
 			specificConfig: {
 				ad: {
+					title: "关注微信公众号",
 					image: {
 						src: "https://assets.823331.xyz/images/mp.jpg",
 						alt: "微信公众号",
@@ -212,7 +213,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 组件类型：广告栏组件 2
 			type: "advertisement",
 			// 是否启用该组件
-			enable: false,
+			enable: true,
 			// 组件位置
 			position: "sticky",
 			// 是否在文章详情页显示
