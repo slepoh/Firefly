@@ -52,36 +52,6 @@ export const sponsorConfig: SponsorConfig = {
 		  enabled: true
 
 		},
-		{
-
-		  name: "ko-fi",
-
-		  icon: "simple-icons:kofi",
-
-		  qrCode: "",
-
-		  link: "https://ko-fi.com/",
-
-		  description: "Buy a Coffee for Firefly",
-
-		  enabled: true
-
-		},
-		{
-
-		  name: "爱发电",
-
-		  icon: "simple-icons:afdian",
-
-		  qrCode: "",
-
-		  link: "https://ifdian.net/",
-
-		  description: "通过 爱发电 进行打赏",
-
-		  enabled: true
-
-		},
 	],
 
 	// 打赏者列表（可选）
