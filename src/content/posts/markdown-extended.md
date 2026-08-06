@@ -16,7 +16,7 @@ category: 文章示例
 使用代码 `::github{repo="Slepoh/Firefly-Admin"}` 创建 GitHub 仓库卡片。
 
 ```markdown
-::github{repo="CuteLeaf/Firefly"}
+::github{repo="Slepoh/Firefly"}
 ```
 
 ## 提醒框(Admonitions)配置
@@ -161,7 +161,6 @@ export const siteConfig: SiteConfig = {
 > 这是一个带有自定义标题的示例。
 ```
 
-
 ![Obsidian](./images/obsidian.avif)
 
 ***
@@ -190,7 +189,6 @@ export const siteConfig: SiteConfig = {
 > [!TIP] 自定义标题
 > VitePress 风格同样支持自定义标题。
 ```
-
 
 ![VitePress](./images/vitepress.avif)
 
@@ -227,7 +225,6 @@ export const siteConfig: SiteConfig = {
 可选信息，帮助用户更成功。
 :::
 ```
-
 
 ![Docusaurus](./images/docusaurus.avif)
 
