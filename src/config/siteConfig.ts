@@ -26,7 +26,7 @@ export const siteConfig: SiteConfig = {
 		"开发攻城狮",
 		"程序猿博客",
 		"攻城狮博客",
-		"运营技巧",,
+		"运营技巧",,,
 	],
 
 	// 主题色
