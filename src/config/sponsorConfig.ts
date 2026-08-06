@@ -133,7 +133,7 @@ export const sponsorConfig: SponsorConfig = {
 		  amount: "¥100",
 
 		// 示例：已实名打赏者
-		  date: "2"
+		  date: "2025-"
 
 		// 示例：已实名打赏者
 		},
