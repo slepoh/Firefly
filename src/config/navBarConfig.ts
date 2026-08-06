@@ -105,12 +105,13 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			},
 			{
 				name: "导航网址",
-				url: "",
+				url: "https",
 				external: false
 			}
 		],
 	});
 	// ===== FireflyCMS:NAVBAR_CUSTOM_END =====
+
 
 
 
