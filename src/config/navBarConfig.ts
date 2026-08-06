@@ -106,11 +106,12 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			{
 				name: "导航网址",
 				url: "https://nav.yormb.cn",
-				external: false
+				external: true
 			}
 		],
 	});
 	// ===== FireflyCMS:NAVBAR_CUSTOM_END =====
+
 
 
 
