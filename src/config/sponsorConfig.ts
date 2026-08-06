@@ -58,7 +58,7 @@ export const sponsorConfig: SponsorConfig = {
 	sponsors: [,
 	{
 ,
-	  name: "",
+	  name: "木子李",
 ,
 	  avatar: "",
 ,
