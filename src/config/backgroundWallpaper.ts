@@ -82,7 +82,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 				"从破碎的天空，我自由坠落",
 				"在静默的群星间，我沉沉入睡",
 				"我凝视着那只发光的萤火虫。",
-				"From Undreamt Night, I Thence Shine",
+				"自未曾梦见的黑夜，我由此焕发光芒。",
 				"In Finalized Morrow, I Full Bloom",
 			],
 			// 主页横幅副标题字体大小
