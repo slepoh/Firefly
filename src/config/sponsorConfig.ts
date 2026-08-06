@@ -56,5 +56,16 @@ export const sponsorConfig: SponsorConfig = {
 
 	// 打赏者列表（可选）
 	sponsors: [,
+	{
+,
+	  name: "",
+,
+	  avatar: "",
+,
+	  amount: "",
+,
+	  date: ""
+,
+	},
 	],
 };
