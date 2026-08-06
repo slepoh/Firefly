@@ -83,7 +83,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 				"在静默的群星间，我沉沉入睡",
 				"我凝视着那只发光的萤火虫。",
 				"自未曾梦见的黑夜，我由此焕发光芒。",
-				"In Finalized Morrow, I Full Bloom",
+				"在尘埃落定的明日，我尽情绽放。",
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",
