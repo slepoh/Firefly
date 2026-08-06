@@ -23,32 +23,72 @@ export const friendsPageConfig: FriendsPageConfig = {
 // 友链配置
 export const friendsConfig: FriendLink[] = [
 	{
-		title: "程序猿开发",
-		imgurl:
-			"https://assets.823331.xyz/images/avatar.webp",
-		desc: "专业的全网营销解决方案提供者，助力企业数字化转型",
-		siteurl: "https://web.yormb.cn",
-		tags: ["Blog"],
-		weight: 10, // 权重，数字越大排序越靠前
-		enabled: true, // 是否启用
+
+	  title: "程序猿开发",
+
+	  imgurl: "https://assets.823331.xyz/images/avatar.webp",
+
+	  desc: "专业的全网营销解决方案提供者，助力企业数字化转型",
+
+	  siteurl: "https://web.yormb.cn",
+
+	  tags: ["Blog"],
+
+	  weight: 10,
+
+	  enabled: true
+
 	},
 	{
-		title: "技术博客",
-		imgurl: "https://image.aioky.cn/avatar.png",
-		desc: "程序猿博客",
-		siteurl: "https://aioky.cn",
-		tags: ["Docs"],
-		weight: 9,
-		enabled: true,
+
+	  title: "技术博客",
+
+	  imgurl: "https://image.aioky.cn/avatar.png",
+
+	  desc: "程序猿博客",
+
+	  siteurl: "https://aioky.cn",
+
+	  tags: ["Docs"],
+
+	  weight: 9,
+
+	  enabled: true
+
 	},
 	{
-		title: "导航站",
-		imgurl: "https://avatars.githubusercontent.com/u/44914786?v=4&s=640",
-		desc: "The web framework for content-driven websites. ⭐️ Star to support our work!",
-		siteurl: "https://nav.yormb.cn",
-		tags: ["Framework"],
-		weight: 8,
-		enabled: true,
+
+	  title: "导航站",
+
+	  imgurl: "https://avatars.githubusercontent.com/u/44914786?v=4&s=640",
+
+	  desc: "The web framework for content-driven websites. ⭐️ Star to support our work!",
+
+	  siteurl: "https://nav.yormb.cn",
+
+	  tags: ["Framework"],
+
+	  weight: 8,
+
+	  enabled: true
+
+	},
+	{
+
+	  title: "",
+
+	  imgurl: "",
+
+	  desc: "",
+
+	  siteurl: "",
+
+	  tags: [],
+
+	  weight: 0,
+
+	  enabled: false
+
 	},
 ];
 
