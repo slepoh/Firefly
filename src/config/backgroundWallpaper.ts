@@ -79,7 +79,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 主页横幅副标题
 			subtitle: [
 				"在泛红的蛹中，我曾安静",
-				"From Shattered Sky, I Free Fall",
+				"从破碎的天空，我自由坠落",
 				"Amidst Silenced Stars, I Deep Sleep",
 				"Upon Lighted Fyrefly, I Soon Gaze",
 				"From Undreamt Night, I Thence Shine",
