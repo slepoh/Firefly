@@ -104,13 +104,14 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				external: true
 			},
 			{
-				name: "导航",
+				name: "导航网址",
 				url: "",
 				external: false
 			}
 		],
 	});
 	// ===== FireflyCMS:NAVBAR_CUSTOM_END =====
+
 
 
 	return { links } as NavBarConfig;
