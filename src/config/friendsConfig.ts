@@ -73,23 +73,6 @@ export const friendsConfig: FriendLink[] = [
 	  enabled: true
 
 	},
-	{
-
-	  title: "",
-
-	  imgurl: "",
-
-	  desc: "",
-
-	  siteurl: "",
-
-	  tags: [],
-
-	  weight: 0,
-
-	  enabled: false
-
-	},
 ];
 
 // 获取启用的友链并进行排序
