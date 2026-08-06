@@ -80,7 +80,7 @@ export const sponsorConfig: SponsorConfig = {
 	},,
 	{
 ,
-	  name: "",
+	  name: "steel",
 ,
 	  avatar: "",
 ,
