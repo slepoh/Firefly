@@ -80,7 +80,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			subtitle: [
 				"在泛红的蛹中，我曾安静",
 				"从破碎的天空，我自由坠落",
-				"Amidst Silenced Stars, I Deep Sleep",
+				"在静默的群星间，我沉沉入睡",
 				"Upon Lighted Fyrefly, I Soon Gaze",
 				"From Undreamt Night, I Thence Shine",
 				"In Finalized Morrow, I Full Bloom",
