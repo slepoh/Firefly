@@ -130,10 +130,10 @@ export const sponsorConfig: SponsorConfig = {
 		  avatar: "",
 
 		// 示例：已实名打赏者
-		  amount: "¥",
+		  amount: "¥100",
 
 		// 示例：已实名打赏者
-		  date: ""
+		  date: "2"
 
 		// 示例：已实名打赏者
 		},
