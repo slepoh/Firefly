@@ -66,6 +66,17 @@ export const sponsorConfig: SponsorConfig = {
 ,
 	  date: "2025-07-26"
 ,
+	},,
+	{
+,
+	  name: "会飞的鱼",
+,
+	  avatar: "",
+,
+	  amount: "",
+,
+	  date: ""
+,
 	},
 	],
 };
