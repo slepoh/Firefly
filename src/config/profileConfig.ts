@@ -49,7 +49,7 @@ export const profileConfig: ProfileConfig = {
 
                   icon: "fa7-solid:envelope",
 
-                  url: "mailto:xiaye@msn.com",
+                  url: "mailto:",
 
                   showName: false
 
