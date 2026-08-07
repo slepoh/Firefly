@@ -66,7 +66,7 @@ export const sponsorConfig: SponsorConfig = {
 ,
 	  date: "2025-07-26"
 ,
-	},,
+	},
 	{
 ,
 	  name: "会飞的鱼",
@@ -77,7 +77,7 @@ export const sponsorConfig: SponsorConfig = {
 ,
 	  date: "2025-09-17"
 ,
-	},,
+	},
 	{
 ,
 	  name: "steel",
