@@ -55,39 +55,39 @@ export const sponsorConfig: SponsorConfig = {
 	],
 
 	// 打赏者列表（可选）
-	sponsors: [,
-	{
-,
-	  name: "木子李",
-,
-	  avatar: "",
-,
-	  amount: "¥50",
-,
-	  date: "2025-07-26"
-,
-	},
-	{
-,
-	  name: "会飞的鱼",
-,
-	  avatar: "",
-,
-	  amount: "¥20",
-,
-	  date: "2025-09-17"
-,
-	},
-	{
-,
-	  name: "steel",
-,
-	  avatar: "",
-,
-	  amount: "¥50",
-,
-	  date: "2026-08-06"
-,
-	},
+	sponsors: [
+		{
+
+		  name: "木子李",
+
+		  avatar: "",
+
+		  amount: "¥50",
+
+		  date: "2025-07-26"
+
+		},
+		{
+
+		  name: "会飞的鱼",
+
+		  avatar: "",
+
+		  amount: "¥20",
+
+		  date: "2025-09-17"
+
+		},
+		{
+
+		  name: "steel",
+
+		  avatar: "",
+
+		  amount: "¥50",
+
+		  date: "2026-08-06"
+
+		},
 	],
 };
