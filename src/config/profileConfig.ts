@@ -38,7 +38,7 @@ export const profileConfig: ProfileConfig = {
 
                   icon: "fa7-brands:github",
 
-                  url: "https://github.com/",
+                  url: "https://github.com/slepoh",
 
                   showName: false
 
