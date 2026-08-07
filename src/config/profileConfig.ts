@@ -65,10 +65,5 @@ export const profileConfig: ProfileConfig = {
 		  showName: false
 
 		},
-	]: "/rss/",
-
-		  showName: false
-
-		},
 	],
 };
