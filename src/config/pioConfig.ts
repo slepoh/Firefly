@@ -3,7 +3,7 @@ import type { Live2DWidgetConfig, SpineModelConfig } from "../types/pioConfig";
 // Spine 看板娘配置
 export const spineModelConfig: SpineModelConfig = {
 	// Spine 看板娘开关
-	enable: true,
+	enable: false,
 
 	// Spine模型配置
 	model: {
@@ -57,7 +57,7 @@ export const spineModelConfig: SpineModelConfig = {
 			"有什么想对我说的吗？💫",
 			"让我们一起探索未知的世界吧！🚀",
 			"每一颗星星都有自己的故事~⭐",
-			"希望能带给你温暖和快乐！💖",,
+			"希望能带给你温暖和快乐！💖",,,
 		],
 		// 文字显示时间（毫秒）
 		messageDisplayTime: 3000,
