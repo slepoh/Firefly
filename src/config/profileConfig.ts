@@ -23,9 +23,9 @@ export const profileConfig: ProfileConfig = {
         links: [
                 {
 
-                  name: "",
+                  name: "WeChat",
 
-                  icon: "fa7-brands:qq",
+                  icon: "fa7-brands:",
 
                   url: "/",
 
