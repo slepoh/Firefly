@@ -23,7 +23,7 @@ export const profileConfig: ProfileConfig = {
         links: [
                 {
 
-                  name: "qq",
+                  name: "",
 
                   icon: "fa7-brands:qq",
 
