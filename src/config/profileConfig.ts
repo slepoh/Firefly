@@ -22,28 +22,48 @@ export const profileConfig: ProfileConfig = {
 	// showName: true 时显示图标和名称，false 时只显示图标
 	links: [
 		{
-			name: "qq",
-			icon: "fa7-brands:qq",
-			url: "/",
-			showName: false,
+
+		  name: "qq",
+
+		  icon: "fa7-brands:wechat",
+
+		  url: "/",
+
+		  showName: false
+
 		},
 		{
-			name: "GitHub",
-			icon: "fa7-brands:github",
-			url: "https://github.com/slepoh",
-			showName: false,
+
+		  name: "GitHub",
+
+		  icon: "fa7-brands:github",
+
+		  url: "https://github.com/slepoh",
+
+		  showName: false
+
 		},
 		{
-			name: "Email",
-			icon: "fa7-solid:envelope",
-			url: "mailto:slepoh@aioky.cn",
-			showName: false,
+
+		  name: "Email",
+
+		  icon: "fa7-solid:envelope",
+
+		  url: "mailto:slepoh@aioky.cn",
+
+		  showName: false
+
 		},
 		{
-			name: "RSS",
-			icon: "fa7-solid:rss",
-			url: "/rss/",
-			showName: false,
+
+		  name: "RSS",
+
+		  icon: "fa7-solid:rss",
+
+		  url: "/rss/",
+
+		  showName: false
+
 		},
 	],
 };
