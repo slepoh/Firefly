@@ -12,7 +12,7 @@ export const profileConfig: ProfileConfig = {
         name: "运营程序猿",
 
         // 个人签名
-        bio: "会开发、懂运营、",
+        bio: "会开发、懂运营、玩技术",
 
         // 链接配置
         // 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons
@@ -38,7 +38,7 @@ export const profileConfig: ProfileConfig = {
 
                   icon: "fa7-brands:github",
 
-                  url: "https://github.com/CuteLeaf",
+                  url: "https://github.com/",
 
                   showName: false
 
