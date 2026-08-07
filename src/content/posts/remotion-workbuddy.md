@@ -48,11 +48,18 @@ comment: true
 很快，视频就生成完成了。
 ![image.png](https://image.aioky.cn/images/ca5439cc2430a4ca240ddbb6564190a1ec438cb9.png#blurhash=L5S6Pl00xu_3_3V%40M%7BaexuxubHbG&width=918&height=908)
 接下来还可以继续补上配音。配音既可以自己口播，也可以交给 AI。
+
 只要继续告诉 AI：更新这个 skill，接入 VoxCPM，并提供一段参考音频；之后这个 skill 生成的视频，就可以自动带上配音。
+
 技能建好以后，是需要根据效果和自己的需求，持续的迭代了。 
+
 等你迭代好，你拥有的就不再是一个“让 AI 随机生成视频”的提示词，而是一条可重复调用、可人工把关、可恢复长任务、也能替换本地模型和 Remotion 模板的生产线。再把自动生成故事的流程也接入，下一次要做视频时，只需要一句话： 帮我生成一个故事视频。 然后Workbuddy就自动帮你生成故事， 生成分镜， 生成图片， 最终输出视频给你了。
+
 后续，就可以根据这个技能持续不断的产出视频，吃上自媒体的饭，走上人生巅峰了。
+
 不得不说，随着 AI 的发展，它越来越强了。
+
 理论结合实践才是最好的学习方式， 大家可以按照我的步骤去实践一下。 
+
 如果本地没有安装ComfyUI， 也可以在Workbuddy里面找到对应的skill来用，搜一下文生图，很多的
 ![image.png](https://image.aioky.cn/images/0c1cafe4f323810eb4b62ebd7f5df856e1e8daa9.png#blurhash=L5Rysgx%5DIU%3Fb%7EqM%7BRPxat6axWCx%5D&width=1122&height=912)
