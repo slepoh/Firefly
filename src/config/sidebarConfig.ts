@@ -46,7 +46,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 组件位置
 			position: "top",
 			// 是否在文章详情页显示
-			showOnPostPage: false,
+			showOnPostPage: true,
 		},
 		{
 			// 组件类型：公告组件
@@ -62,11 +62,11 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 组件类型：音乐播放器
 			type: "music",
 			// 是否启用该组件
-			enable: false,
+			enable: true,
 			// 组件位置
 			position: "sticky",
 			// 是否在文章详情页显示
-			showOnPostPage: false,
+			showOnPostPage: true,
 		},
 		{
 			// 组件类型：分类组件
@@ -133,11 +133,11 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 组件类型：站点信息组件
 			type: "siteInfo",
 			// 是否启用该组件
-			enable: false,
+			enable: true,
 			// 组件位置
 			position: "top",
 			// 是否在文章详情页显示
-			showOnPostPage: false,
+			showOnPostPage: true,
 			// 组件专属配置
 			specificConfig: {
 				siteInfo: {
@@ -194,51 +194,76 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 					title: "关注微信公众号",
 					image: {
 						src: "https://assets.823331.xyz/images/mp.jpg",
-alt: "微信公众"微信公众号",
-link: "/",
-"/"			external: true,true		},
+						alt: "微信公众号",
+						link: "https://aioky.cn",
+						external: true,
+					},
 					// 是否允许关闭广告
-					closable: falsefalse		// 显示次数限制，-1为无限制
+					closable: false,
+					// 显示次数限制，-1为无限制
 					displayCount: -1,
-	-1		// 组件内边距配置
+					// 组件内边距配置
 					padding: {
-						all: "1rem"1rem"		},
-				},
-			},
-		},
-		{
-			// 组件类型：广告栏组件 2
-			type: "adve"advertisement"// 是否启用该组件
-			enable: true,true// 组件位置
-			position: "stic"sticky"// 是否在文章详情页显示
-			showOnPostPage: true,true// 组件专属配置（广告内容直接在此配置）
-			specificConfig: {
-				ad: {
-					title: "关注视频"关注视频号"		image: {
-						src: "http"https://assets.823331.xyz/images/sph.jpg"			alt: "微信视频"微信视频号"			link: "/",
-"/"			external: true,true		},
-					// 是否允许关闭广告
-					closable: falsefalse		// 显示次数限制，-1为无限制
-					displayCount: -1,
-	-1		// 组件内边距配置
-					padding: {
-						all: "1rem"1rem"		},
+						all: "1rem",
+					},
 				},
 			},
 		},
 		{
 			// 组件类型：广告栏组件 3
-			type: "adve"advertisement"// 是否启用该组件
-			enable: true,true// 组件位置
-			position: "stic"sticky"// 是否在文章详情页显示
-			showOnPostPage: true,true// 组件专属配置（广告内容直接在此配置）
+			type: "advertisement",
+			// 是否启用该组件
+			enable: true,
+			// 是否显示组件标题
+			showTitle: true,
+			// 组件位置
+			position: "sticky",
+			// 是否在文章详情页显示
+			showOnPostPage: true,
+			// 组件专属配置（广告内容直接在此配置）
 			specificConfig: {
 				ad: {
-					title: "支持博主"支持博主"		content:
-						"如果您觉"如果您觉得本站内容对您有帮助，欢迎支持我们的创作！您的支持是我们持续更新的动力。"		link: {
-						text: "支持一下"支持一下"			url: "abou"about/"			external: falsefalse		},
-					closable: falsefalse		displayCount: -1,
-	-1	},
+					title: "关注视频号",
+					image: {
+						src: "https://assets.823331.xyz/images/sph.jpg",
+						alt: "微信视频号",
+						link: "https://aioky.cn",
+						external: true,
+					},
+					// 是否允许关闭广告
+					closable: false,
+					// 显示次数限制，-1为无限制
+					displayCount: -1,
+					// 组件内边距配置
+					padding: {
+						all: "1rem",
+					},
+				},
+			},
+		},
+		{
+			// 组件类型：广告栏组件 4
+			type: "advertisement",
+			// 是否启用该组件
+			enable: true,
+			// 组件位置
+			position: "sticky",
+			// 是否在文章详情页显示
+			showOnPostPage: true,
+			// 组件专属配置（广告内容直接在此配置）
+			specificConfig: {
+				ad: {
+					title: "支持博主",
+					content:
+						"如果您觉得本站内容对您有帮助，欢迎支持我们的创作！您的支持是我们持续更新的动力。",
+					link: {
+						text: "支持一下",
+						url: "about/",
+						external: false,
+					},
+					closable: false,
+					displayCount: -1,
+				},
 			},
 		},
 	],
@@ -248,60 +273,82 @@ link: "/",
 	mobileBottomComponents: [
 		{
 			// 组件类型：用户资料组件
-			type: "prof"profile"// 是否启用该组件
-			enable: true,true// 是否在文章详情页显示
-			showOnPostPage: true,true,
+			type: "profile",
+			// 是否启用该组件
+			enable: true,
+			// 是否在文章详情页显示
+			showOnPostPage: true,
+		},
 		{
 			// 组件类型：公告组件
-			type: "anno"announcement"// 是否启用该组件
-			enable: true,true// 是否在文章详情页显示
-			showOnPostPage: true,true,
+			type: "announcement",
+			// 是否启用该组件
+			enable: true,
+			// 是否在文章详情页显示
+			showOnPostPage: true,
+		},
 		{
 			// 组件类型：分类组件
-			type: "cate"categories"// 是否启用该组件
-			enable: true,true// 是否在文章详情页显示
-			showOnPostPage: true,true// 组件专属配置
+			type: "categories",
+			// 是否启用该组件
+			enable: true,
+			// 是否在文章详情页显示
+			showOnPostPage: true,
+			// 组件专属配置
 			specificConfig: {
 				// 折叠阈值：当分类数量超过5个时自动折叠
 				collapseThreshold: 5,
-		5},
+			},
 		},
 		{
 			// 组件类型：标签组件
-			type: "tags"tags"// 是否启用该组件
-			enable: true,true// 是否在文章详情页显示
-			showOnPostPage: true,true// 组件专属配置
+			type: "tags",
+			// 是否启用该组件
+			enable: true,
+			// 是否在文章详情页显示
+			showOnPostPage: true,
+			// 组件专属配置
 			specificConfig: {
 				// 折叠阈值：当标签数量超过20个时自动折叠
 				collapseThreshold: 10,
-	10},
+			},
 		},
 		{
 			// 组件类型：最新动态组件
-			type: "dyna"dynamic"// 是否启用该组件
-			enable: true,true// 是否在文章详情页显示
-			showOnPostPage: true,true// 组件专属配置
+			type: "dynamic",
+			// 是否启用该组件
+			enable: true,
+			// 是否在文章详情页显示
+			showOnPostPage: true,
+			// 组件专属配置
 			specificConfig: {
 				dynamic: {
 					// 显示的最新动态数量
 					limit: 2,
-		2	},
+				},
 			},
 		},
 		{
 			// 组件类型：站点统计组件
-			type: "stat"stats"// 是否启用该组件
-			enable: true,true// 是否在文章详情页显示
-			showOnPostPage: true,true,
+			type: "stats",
+			// 是否启用该组件
+			enable: true,
+			// 是否在文章详情页显示
+			showOnPostPage: true,
+		},
 		{
 			// 组件类型：站点信息组件
-			type: "site"siteInfo"// 是否启用该组件
-			enable: falsefalse// 是否在文章详情页显示
-			showOnPostPage: falsefalse// 组件专属配置
+			type: "siteInfo",
+			// 是否启用该组件
+			enable: true,
+			// 是否在文章详情页显示
+			showOnPostPage: true,
+			// 组件专属配置
 			specificConfig: {
 				siteInfo: {
 					// 未能识别的构建平台回退显示文本，可自定义
-					unknownBuildPlatform: "Unkn"Unknown CI"	},
+					unknownBuildPlatform: "Unknown CI",
+				},
 			},
 		},
 	],
