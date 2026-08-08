@@ -77,12 +77,6 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				external: true
 			},
 			{
-				name: "Gitee",
-				url: "https://gitee.com/slepoh",
-				icon: "fa7-brands:gitee",
-				external: true
-			},
-			{
 				name: "导航网址",
 				url: "https://nav.yormb.cn",
 				icon: "material-symbols:link",
