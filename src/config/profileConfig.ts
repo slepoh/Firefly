@@ -25,7 +25,7 @@ export const profileConfig: ProfileConfig = {
 
                   name: "Youtube",
 
-                  icon: "fa7-brands:weixin",
+                  icon: "fa7-brands:youtube",
 
                   url: "https://www.youtube.com/@slepoh",
 
