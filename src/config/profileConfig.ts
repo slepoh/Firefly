@@ -23,11 +23,11 @@ export const profileConfig: ProfileConfig = {
         links: [
                 {
 
-                  name: "WeChat",
+                  name: "Youtube",
 
                   icon: "fa7-brands:weixin",
 
-                  url: "/",
+                  url: "https://www.youtube.com/@slepoh",
 
                   showName: false
 
@@ -61,17 +61,6 @@ export const profileConfig: ProfileConfig = {
                   icon: "fa7-solid:rss",
 
                   url: "/rss",
-
-                  showName: false
-
-                },
-                {
-
-                  name: "",
-
-                  icon: "",
-
-                  url: "",
 
                   showName: false
 
