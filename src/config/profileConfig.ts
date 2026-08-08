@@ -25,7 +25,7 @@ export const profileConfig: ProfileConfig = {
 
                   name: "WeChat",
 
-                  icon: "fa7-brands:wechat",
+                  icon: "fa7-brands:weixin",
 
                   url: "/",
 
