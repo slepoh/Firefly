@@ -196,7 +196,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 						src: "https://assets.823331.xyz/images/mp.jpg",
             alt: "微信公众"微信公众号",
             link: "/",
-"/"			external: true,true		},
+            "/"			external: true,true		},
 					// 是否允许关闭广告
 					closable: falsefalse		// 显示次数限制，-1为无限制
 					displayCount: -1,
