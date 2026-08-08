@@ -83,7 +83,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				external: true
 			},
 			{
-				name: "",
+				name: "技术博客",
 				url: "https://aioky.cn",
 				external: false
 			}
