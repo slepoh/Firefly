@@ -85,7 +85,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			{
 				name: "导航网址",
 				url: "https://nav.yormb.cn",
-				icon: "fa7-brands:link",
+				icon: "material-symbols:link",
 				external: true
 			}
 		],
