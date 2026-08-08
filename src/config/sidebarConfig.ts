@@ -210,7 +210,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			},
 		},
 		{
-			// 组件类型：广告栏组件 3
+			// 组件类型：广告栏组件 2
 			type: "advertisement",
 			// 是否启用该组件
 			enable: true,
@@ -242,7 +242,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			},
 		},
 		{
-			// 组件类型：广告栏组件 4
+			// 组件类型：广告栏组件 3
 			type: "advertisement",
 			// 是否启用该组件
 			enable: true,
