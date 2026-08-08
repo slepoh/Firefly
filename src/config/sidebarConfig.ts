@@ -193,7 +193,8 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 				ad: {
 					title: "关注微信公众号",
 					image: {
-						src: "https://assets.823331.xyz/images/mp.jpg".alt: "微信公众"微信公众号"			link: "/",
+						src: "https://assets.823331.xyz/images/mp.jpg",
+alt: "微信公众"微信公众号"			link: "/",
 "/"			external: true,true		},
 					// 是否允许关闭广告
 					closable: falsefalse		// 显示次数限制，-1为无限制
