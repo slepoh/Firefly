@@ -81,6 +81,11 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				url: "https://nav.yormb.cn",
 				icon: "material-symbols:link",
 				external: true
+			},
+			{
+				name: "",
+				url: "https://aioky.cn",
+				external: false
 			}
 		],
 	});
