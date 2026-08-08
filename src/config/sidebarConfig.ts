@@ -193,7 +193,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 				ad: {
 					title: "关注微信公众号",
 					image: {
-						src: "https://blog-admin.823331.xyz/uploads/mp.jpg",
+						src: "https://assets.823331.xyz/images/mp.jpg",
 						alt: "微信公众号",
 						link: "/",
 						external: true,
