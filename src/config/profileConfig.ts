@@ -67,11 +67,11 @@ export const profileConfig: ProfileConfig = {
                 },
                 {
 
-                  name: "Youtube",
+                  name: "",
 
-                  icon: "fa7-brands:youtube",
+                  icon: "",
 
-                  url: "https://www.youtube.com/@slepoh",
+                  url: "",
 
                   showName: false
 
