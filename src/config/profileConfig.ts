@@ -67,7 +67,7 @@ export const profileConfig: ProfileConfig = {
                 },
                 {
 
-                  name: "",
+                  name: "Youtube",
 
                   icon: "",
 
