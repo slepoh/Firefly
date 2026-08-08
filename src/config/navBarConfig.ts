@@ -16,75 +16,54 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	// 主页
 	links.push(LinkPresets.Home);
 
-	// 文章及其子菜单
 	links.push({
 		name: "文章",
 		url: "#",
 		icon: "material-symbols:article",
+		// 子菜单
 		children: [
-			// 归档
 			LinkPresets.Archive,
-
-			// 分类
 			LinkPresets.Categories,
-
-			// 标签
-			LinkPresets.Tags,
+			LinkPresets.Tags
 		],
 	});
 
-	//社交及其子菜单
 	links.push({
 		name: "社交",
 		url: "#",
 		icon: "material-symbols:group",
+		// 子菜单
 		children: [
-			// 友链
 			LinkPresets.Friends,
-
-			// 留言
-			LinkPresets.Guestbook,
+			LinkPresets.Guestbook
 		],
 	});
 
-	// 我的及其子菜单
 	links.push({
 		name: "我的",
 		url: "#",
 		icon: "material-symbols:person",
+		// 子菜单
 		children: [
-			// 动态
 			LinkPresets.Dynamic,
-
-			// 相册
 			LinkPresets.Gallery,
-
-			// 追番
 			LinkPresets.Anime,
-
-			// 番组计划
 			LinkPresets.Bangumi,
-
-			// 书签导航
-			LinkPresets.Booknav,
+			LinkPresets.Booknav
 		],
 	});
 
-	// 关于及其子菜单
 	links.push({
 		name: "关于",
 		url: "#",
 		icon: "material-symbols:info",
+		// 子菜单
 		children: [
-			// 打赏
 			LinkPresets.Sponsor,
-
-			// 关于页面
-			LinkPresets.About,
+			LinkPresets.About
 		],
 	});
 
-	// ===== FireflyCMS:NAVBAR_CUSTOM_START =====
 	links.push({
 		name: "链接",
 		url: "#",
@@ -111,14 +90,6 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			}
 		],
 	});
-
-	// 文档链接
-	// links.push({
-	// 	name: "文档",
-	// 	url: "https://docs-firefly.cuteleaf.cn",
-	// 	external: true,
-	// 	icon: "material-symbols:docs",
-	// });
 
 	return { links } as NavBarConfig;
 };
