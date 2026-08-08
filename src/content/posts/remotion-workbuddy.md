@@ -4,6 +4,7 @@ published: 2026-08-06T20:42:00
 description: "用户通过WorkBuddy创建自动化视频生成技能，流程包括：1. 创建skill文件夹并定义分镜生成、图片渲染（ComfyUI+SDXL）、视频合成（Remotion带渐变动画）的步骤；2. 输入故事后自动生成10个分镜及对应的生图提示词；3. 调用本地ComfyUI生成分镜图片并合成视频。后续可接入VoxCPM实现自动配音，通过持续迭代优化技能，最终实现从故事生成到视频输出的全流程自动化，无需人工干预即可批量生产视频内容。"
 image: "https://image.aioky.cn/images/9d3c625f6b7b0f5c7d07cc3e0c058368a0dbad4a.png"
 tags: [Workbuddy]
+category: Agent
 comment: true
 ---
 # 用 Remotion + Workbuddy，做出一个能自动生成故事视频的Skills
@@ -51,7 +52,7 @@ comment: true
 
 只要继续告诉 AI：更新这个 skill，接入 VoxCPM，并提供一段参考音频；之后这个 skill 生成的视频，就可以自动带上配音。
 
-技能建好以后，是需要根据效果和自己的需求，持续的迭代了。 
+技能建好以后，是需要根据效果和自己的需求，持续的迭代了。
 
 等你迭代好，你拥有的就不再是一个“让 AI 随机生成视频”的提示词，而是一条可重复调用、可人工把关、可恢复长任务、也能替换本地模型和 Remotion 模板的生产线。再把自动生成故事的流程也接入，下一次要做视频时，只需要一句话： 帮我生成一个故事视频。 然后Workbuddy就自动帮你生成故事， 生成分镜， 生成图片， 最终输出视频给你了。
 
@@ -59,7 +60,7 @@ comment: true
 
 不得不说，随着 AI 的发展，它越来越强了。
 
-理论结合实践才是最好的学习方式， 大家可以按照我的步骤去实践一下。 
+理论结合实践才是最好的学习方式， 大家可以按照我的步骤去实践一下。
 
 如果本地没有安装ComfyUI， 也可以在Workbuddy里面找到对应的skill来用，搜一下文生图，很多的
 ![image.png](https://image.aioky.cn/images/0c1cafe4f323810eb4b62ebd7f5df856e1e8daa9.png#blurhash=L5Rysgx%5DIU%3Fb%7EqM%7BRPxat6axWCx%5D&width=1122&height=912)
