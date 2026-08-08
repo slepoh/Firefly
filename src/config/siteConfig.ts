@@ -145,7 +145,7 @@ export const siteConfig: SiteConfig = {
 		// PostMeta 元数据显示控制
 		meta: {
 			// 是否显示发布日期
-			showPublished: true,
+			showPublished: false,
 			// 是否显示分类
 			showCategory: true,
 			// 是否显示标签
