@@ -65,5 +65,16 @@ export const profileConfig: ProfileConfig = {
                   showName: false
 
                 },
+                {
+
+                  name: "",
+
+                  icon: "",
+
+                  url: "",
+
+                  showName: false
+
+                },
         ]
 };
