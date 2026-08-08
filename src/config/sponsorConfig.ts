@@ -41,7 +41,7 @@ export const sponsorConfig: SponsorConfig = {
 
 		  name: "微信",
 
-		  icon: "fa7-brands:weixin",
+		  icon: "fa7-brands:weibo",
 
 		  qrCode: "/assets/images/sponsor/wechat.jpg",
 
