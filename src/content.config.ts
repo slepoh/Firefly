@@ -67,10 +67,14 @@ const postsCollection: ContentCollection<PostData> = defineCollection({
 	}),
 });
 
-const specCollection: ContentCollection<Record<string, never>> =
+const specCollection: ContentCollection<{ title?: string }> =
 	defineCollection({
 		loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/spec" }),
-		schema: z.object({}),
+		schema: z.object({
+			// 允许单页（spec）自定义页面标题；后台「页面信息」编辑器写入 frontmatter 的 title，
+			// 通用路由 src/pages/[slug].astro 读取 entry.data.title，缺省回退文件名。
+			title: z.string().optional().default(""),
+		}),
 	});
 
 const dynamicCollection: ContentCollection<DynamicData> = defineCollection({
