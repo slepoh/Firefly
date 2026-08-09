@@ -28,6 +28,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			{
 				name: "视频",
 				url: "/video/",
+				icon: "material-symbols:videocam",
 				external: false
 			}
 		],
