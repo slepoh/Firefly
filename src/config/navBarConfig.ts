@@ -27,7 +27,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			LinkPresets.Tags,
 			{
 				name: "视频",
-				url: "",
+				url: "/video",
 				external: false
 			}
 		],
