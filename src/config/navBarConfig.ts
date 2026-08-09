@@ -24,7 +24,12 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		children: [
 			LinkPresets.Archive,
 			LinkPresets.Categories,
-			LinkPresets.Tags
+			LinkPresets.Tags,
+			{
+				name: "视频",
+				url: "",
+				external: false
+			}
 		],
 	});
 
