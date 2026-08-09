@@ -15,7 +15,7 @@ export const getStaticPaths = async () => {
 
 const { entry } = Astro.props;
 const { Content } = await render(entry);
-const title = entry.id;
+const title = entry.data.title || entry.id;
 ---
 
 <MainGridLayout title={title} description={title}>
