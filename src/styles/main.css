@@ -620,3 +620,6 @@ html {
 .pagination-info {
   @apply text-sm text-(--text-secondary) text-center mb-2;
 }
+.footer .transition>div>div>div{
+   display: none;
+}
